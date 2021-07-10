@@ -1,0 +1,11 @@
+{
+  "name": "frontenddeveloperchallenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "En esta aplicación se pueden encontrar un listado de usuarios de GitHub, con su foto de perfil, nombre de usuario y link directo a GitHub."
+}
