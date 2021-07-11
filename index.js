@@ -21,8 +21,7 @@ const userContent = document.getElementById('listUsers')
 const getUsers = () => {
   fetch(`${api}/users`)
     .then((response) => response.json()
-      .then((users) => {
-        console.log(users)
+      .then((users) => {       
         const template = users.map(user =>                 
          `<div class="card">
             <h3>${user.login}</h3>
@@ -34,11 +33,7 @@ const getUsers = () => {
       }))
     }
   getUsers()
- 
-const searcher = (data, condition) => {
-    const userSearch =data.filter(user => user.login.includes(condition));
-    return userSearch
-  }
+
  
 
 
